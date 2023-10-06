@@ -22,7 +22,7 @@ function profile() {
                       <th>ID</th>
                       <th>NOMBRE</th>
                       <th>EDAD</th>
-                      <th>GRADO</th>
+                      <th>Grado</th>
                     </tr>
                   </thead>
                   <tbody>

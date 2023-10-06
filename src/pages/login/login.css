@@ -123,7 +123,7 @@ select option{
   outline: none;
   font-family: "Montserrat";
   font-size: 18px;
-  background-color: rgba(20, 87, 220, 0.568);
+  background-color: #1457dc91;
   cursor: pointer;
   color: #f6f5f7;
 }

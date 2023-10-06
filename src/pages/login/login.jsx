@@ -46,7 +46,7 @@ import "./login.css"
 const Login= () => {
   return (
     <div>
-      <section>
+      <section className=" section">
         <div className="container">
           <div className="form sign-in-form">
             <div className="wrapper">
@@ -69,7 +69,7 @@ const Login= () => {
                 <input type="email" placeholder="Coreo Electronico *" className=" rounded-md"/>
                 <input type="password" placeholder="Contraseña *" className=" rounded-md"/>
                 
-                <button className=" rounded-md">Registrarse</button>
+                <button className=" rounded-md mt-5">Registrarse</button>
               </form>
             </div>
           </div>

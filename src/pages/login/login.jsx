@@ -1,6 +1,45 @@
 
 import "./login.css"
 
+// const signIn = document.querySelector("#signInButton");
+// const signUp = document.querySelector("#signUpButton");
+// const signInForm = document.querySelector(".container .sign-in-form");
+// const signUpForm = document.querySelector(".container .sign-up-form");
+// const overlay_container = document.querySelector(
+//   ".container .overlay-container"
+// );
+// const overlay = document.querySelector(
+//   ".container .overlay-container .overlay"
+// );
+
+// signIn.addEventListener("click", () => {
+//   overlay_container.style.transform = "translateX(100%)";
+//   overlay.style.transform = "translateX(-50%)";
+//   signInForm.classList.add("active");
+//   signUpForm.classList.remove("active");
+// });
+// signUp.addEventListener("click", () => {
+//   overlay_container.style.transform = "translateX(0)";
+//   overlay.style.transform = "translateX(0)";
+//   signUpForm.classList.add("active");
+//   signInForm.classList.remove("active");
+// });
+
+
+// const WebCifarIcon = document.querySelector("#webCifar-icon");
+// const WebCifarEl = document.querySelector("#webCifar");
+// const close = WebCifarEl.querySelector(".close");
+// const youtubeLink = document.querySelector(".youtubeLink");
+
+// WebCifarIcon.addEventListener("click", () => {
+//   WebCifarEl.classList.add("active");
+// });
+// close.addEventListener("click", () => {
+//   WebCifarEl.classList.remove("active");
+// });
+
+// youtubeLink.setAttribute("href", "https://youtu.be/7FbpuWOffc0");
+
 
 
 
@@ -12,11 +51,11 @@ const Login= () => {
           <div className="form sign-in-form">
             <div className="wrapper">
               <form action="#">
-                <h1>Sign In</h1>
-                <p>use your email and password to sign in</p>
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="password" />
-                <button>Sign In</button>
+                <h1>Iniciar Sesion</h1>
+                <p>Ingresa tu correo y contraseña</p>
+                <input type="email" placeholder="Correo electronico" />
+                <input type="password" placeholder="Contraseña" />
+                <button className=" rounded-md">Ingresar</button>
               </form>
             </div>
           </div>
@@ -29,6 +68,7 @@ const Login= () => {
                 <input type="number" placeholder="Celular *" className=" rounded-md"/>
                 <input type="email" placeholder="Coreo Electronico *" className=" rounded-md"/>
                 <input type="password" placeholder="Contraseña *" className=" rounded-md"/>
+                
                 <button className=" rounded-md">Registrarse</button>
               </form>
             </div>
@@ -41,15 +81,15 @@ const Login= () => {
                 <button id="signInButton" className=" rounded-md">Iniciar Sesion</button>
               </div>
               <div className="overlay-right">
-                <h1>Please, Log In</h1>
-                <p>or</p>
-                <button id="signUpButton" >Create Account</button>
+                <h1>Ingresa</h1>
+                <p>o</p>
+                <button id="signUpButton" className=" rounded-md" >Crea una cuenta</button>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div id="webCifar-sidebox">
+      {/* <div id="webCifar-sidebox">
         <div id="webCifar">
           <h2 className="logo">Web Cifar</h2>
           <p className="author">Coded By <span>Shaif Arfan</span> </p>
@@ -74,7 +114,7 @@ const Login= () => {
             </svg>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

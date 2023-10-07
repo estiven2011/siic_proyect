@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tutoriales() {
   return (
-    <div>
+    <div className=' '>
       
     </div>
   )

@@ -29,16 +29,16 @@ function profile() {
                     </div>
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Product name
+                    ID
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Color
+                    NOMBRE
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Category
+                    CORREO
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Price
+                    ROL
                 </th>
                 <th scope="col" class="px-6 py-3">
                     Action
@@ -57,16 +57,16 @@ function profile() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    Apple MacBook Pro 17"
+                    1
                 </th>
                 <td class="px-6 py-4">
-                    Silver
+                   Gabriel
                 </td>
                 <td class="px-6 py-4">
-                    Laptop
+                    gabriel@gmail.com
                 </td>
                 <td class="px-6 py-4">
-                    $2999
+                    Estudiante
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
@@ -83,16 +83,16 @@ function profile() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    Microsoft Surface Pro
+                    2
                 </th>
                 <td class="px-6 py-4">
-                    White
+                    Fernanda
                 </td>
                 <td class="px-6 py-4">
-                    Laptop PC
+                    fer123@gmail.com
                 </td>
                 <td class="px-6 py-4">
-                    $1999
+                    Estudiante
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
@@ -109,16 +109,16 @@ function profile() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    Magic Mouse 2
+                    3
                 </th>
                 <td class="px-6 py-4">
-                    Black
+                    Jhon
                 </td>
                 <td class="px-6 py-4">
-                    Accessories
+                    jhonjader@elpoli.edu.co
                 </td>
                 <td class="px-6 py-4">
-                    $99
+                    Monitor
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
@@ -135,16 +135,16 @@ function profile() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    Apple Watch
+                    4
                 </th>
                 <td class="px-6 py-4">
-                    Silver
+                    Luis
                 </td>
                 <td class="px-6 py-4">
-                    Accessories
+                    luis2023@gmail.com
                 </td>
                 <td class="px-6 py-4">
-                    $179
+                    estudiante
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
@@ -161,16 +161,16 @@ function profile() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    iPad
+                    5
                 </th>
                 <td class="px-6 py-4">
-                    Gold
+                    Jose Fernando
                 </td>
                 <td class="px-6 py-4">
-                    Tablet
+                    josef@gmail.com
                 </td>
                 <td class="px-6 py-4">
-                    $699
+                    Estudiante
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
@@ -187,16 +187,16 @@ function profile() {
                     </div>
                 </td>
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    Apple iMac 27"
+                    6
                 </th>
                 <td class="px-6 py-4">
-                    Silver
+                    Manuel
                 </td>
                 <td class="px-6 py-4">
-                    PC Desktop
+                    manuel9080@elpoli.edu.co
                 </td>
                 <td class="px-6 py-4">
-                    $3999
+                    Monitor
                 </td>
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>

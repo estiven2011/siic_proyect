@@ -9,6 +9,7 @@ import Presentaciones from "./pages/presentaciones/presentaciones"
 import Tutoriales from "./pages/tutoriales/tutoriales"
 import Ejercicios from "./pages/ejercicios/ejercicios"
 import Profile from "./pages/profile/profile"
+// import {GlobalContextProvider} from "./contexto/contexto"
 
 function Router (){
   let router = useRoutes([
@@ -30,11 +31,13 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
-    <Navbar/>
-    <Router/>
-    <Footer/>
-    </BrowserRouter>  
+    {/* <GlobalContextProvider> */}
+      <BrowserRouter>
+        <Navbar/>
+        <Router/>
+        <Footer/>
+      </BrowserRouter>
+    {/* </GlobalContextProvider>  */}
     </>
   )
 }

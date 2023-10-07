@@ -1,5 +1,7 @@
-
+import React from "react";
 import "./login.css"
+// import {globalContext} from "../../contexto/contexto";
+
 
 // const signIn = document.querySelector("#signInButton");
 // const signUp = document.querySelector("#signUpButton");
@@ -28,12 +30,7 @@ import "./login.css"
 
 // const WebCifarIcon = document.querySelector("#webCifar-icon");
 // const WebCifarEl = document.querySelector("#webCifar");
-// const close = WebCifarEl.querySelector(".close");
-// const youtubeLink = document.querySelector(".youtubeLink");
 
-// WebCifarIcon.addEventListener("click", () => {
-//   WebCifarEl.classList.add("active");
-// });
 // close.addEventListener("click", () => {
 //   WebCifarEl.classList.remove("active");
 // });
@@ -44,6 +41,7 @@ import "./login.css"
 
 
 const Login= () => {
+  // const {overlay, handleOverlayShow, handleOverlayHide} = React.useContext(globalContext);
   return (
     <div>
       <section className=" section">
@@ -83,7 +81,7 @@ const Login= () => {
               <div className="overlay-right">
                 <h1>Ingresa</h1>
                 <p>o</p>
-                <button id="signUpButton" className=" rounded-md" >Crea una cuenta</button>
+                <button id="signUpButton" className=" rounded-md">Crea una cuenta</button>
               </div>
             </div>
           </div>

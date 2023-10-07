@@ -14,31 +14,7 @@ function profile() {
               <p className=' text-center pb-8'><b>Correo:</b> <br /> jeespinosa@elpoli.edu.co </p>
             </div>
           </div>
-          <div className=' tableCrud flex flex-col justify-center w-[80%] border-solid border-b-gray-950'>
-              <h1 className=' items-center'>Tabla Maestra de Estudiantes</h1>
-                <table className=' border-2 items-center'>
-                  <thead>
-                    <tr>
-                      <th>ID</th>
-                      <th>NOMBRE</th>
-                      <th>EDAD</th>
-                      <th>Grado</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                        <td>ID</td>
-                        <td>Nombre</td>
-                        <td>Edad</td>
-                        <td>Grado</td>
-                      </tr>
-                  </tbody>
-                </table>
-            </div>
         </div>
-        
-
-      
   )
 }
 

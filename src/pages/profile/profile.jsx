@@ -5,7 +5,7 @@ import "./profile.css"
 function profile() {
   return (
       
-    <div className=" w-full flex ">
+    <div className=" w-full flex rounded-lg">
     <div className="profiles w-[20%] h-[79vh] m-5 flex">
       <div className=' infoProfile flex flex-col items-center'>
       <img src={Profile} alt="" className=' rounded-sm justify-center' />

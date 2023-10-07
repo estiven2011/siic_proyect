@@ -1,6 +1,5 @@
 import React from 'react'
-import Profile from "../../assets/img/user.png"
-import Present from "../../assets/img/present.jpg"
+import Presente from "../../assets/img/presente.jpeg"
 
 function Presentaciones() {
   return (
@@ -11,13 +10,13 @@ function Presentaciones() {
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
           </a>
           <div class="p-5">
-          <img src={Present} alt="" />
+          <img src={Presente} alt="" />
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Presentacion - Ventajas Inteligencia Computacional</h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Les anexo diapostivas vistas en la sesion</p>
             <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#1457dc91] rounded-lg   dark:bg-blue-600 hover:bg-blue-500">
-            Ver presentacion
+            Editar presentación
             </a>
           </div>
         </div>
@@ -26,7 +25,7 @@ function Presentaciones() {
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
           </a>
           <div class="p-5">
-          <img src={Present} alt="" />
+          <img src={Presente} alt="" />
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Subir presentacion</h5>
             </a>

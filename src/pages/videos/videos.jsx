@@ -4,7 +4,7 @@ function Videos() {
   return (
     <div className='primary w-full flex flex-col gap-16 items-center  mt-36  '>
       <div className="container1 flex  gap-24  flex-wrap justify-center ">
-        <div class="max-w-sm bg-[#f6f5f7]  rounded-lg ">
+        <div class="max-w-sm  border border-gray-200 rounded-lg shadowbg dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
           </a>
@@ -21,7 +21,7 @@ function Videos() {
             </a>
           </div>
         </div>
-        <div class="max-w-sm bg-[#f6f5f7]  rounded-lg  ">
+        <div class="max-w-sm bg-[#f6f5f7]  border shadow  dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
           </a>
@@ -38,7 +38,7 @@ function Videos() {
             </a>
           </div>
         </div>
-        <div class="max-w-sm bg-[#f6f5f7]  rounded-lg ">
+        <div class="max-w-sm  border border-gray-200 rounded-lg shadowbg dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
           </a>
@@ -56,7 +56,7 @@ function Videos() {
           </div>
         </div>
       <div className="container2 flex  gap-24 justify-center flex-wrap">
-      <div class="max-w-sm bg-[#f6f5f7]  rounded-lg">
+      <div class="max-w-sm  border border-gray-200 rounded-lg shadowbg dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
           </a>
@@ -73,7 +73,7 @@ function Videos() {
             </a>
           </div>
         </div>
-        <div class="max-w-sm bg-[#f6f5f7]  rounded-lg">
+        <div class="max-w-sm border border-gray-200 rounded-lg shadowbg dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
           </a>
@@ -90,7 +90,7 @@ function Videos() {
             </a>
           </div>
         </div>
-        <div class="max-w-sm bg-[#f6f5f7]  rounded-lg">
+        <div class="max-w-sm  border border-gray-200 rounded-lg shadowbg dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
           </a>

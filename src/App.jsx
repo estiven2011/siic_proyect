@@ -31,11 +31,19 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
+=======
+    {/* <GlobalContextProvider> */}
+>>>>>>> c0548da0353a1497180b751b4b513df6ce737e7c
       <BrowserRouter>
         <Navbar/>
         <Router/>
         <Footer/>
       </BrowserRouter>
+<<<<<<< HEAD
+=======
+    {/* </GlobalContextProvider>  */}
+>>>>>>> c0548da0353a1497180b751b4b513df6ce737e7c
     </>
   )
 }

@@ -160,7 +160,7 @@ select option{
   width: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(20, 87, 220, 0.400);
+  background-color: rgba(20, 87, 220, 0.4);
   z-index: -1;
   opacity: 0.9;
 }

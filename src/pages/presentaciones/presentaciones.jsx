@@ -3,7 +3,7 @@ import Presente from "../../assets/img/presente.jpeg"
 
 function Presentaciones() {
   return (
-    <div className='primary w-full flex flex-col  items-center  mt-20  h-[140vh] '>
+    <div className='primary w-full flex flex-col  items-center  mt-20  h-[70vh] '>
       <div className="container1 flex  gap-24  flex-wrap justify-center ">
         <div class="max-w-[35%]  border border-gray-200 rounded-lg shadowbg dark:border-gray-700">
           <a href="#">

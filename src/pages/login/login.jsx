@@ -66,6 +66,7 @@ const Login= () => {
                 <input type="number" placeholder="Celular *" className=" rounded-md"/>
                 <input type="email" placeholder="Coreo Electronico *" className=" rounded-md"/>
                 <input type="password" placeholder="Contraseña *" className=" rounded-md"/>
+                <input type="password" placeholder="Confirmar Contraseña *" className=" rounded-md"/>
                 
                 <button className=" rounded-md mt-5">Registrarse</button>
               </form>

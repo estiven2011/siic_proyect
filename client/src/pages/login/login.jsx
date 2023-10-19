@@ -62,11 +62,17 @@ const Login= () => {
               <form action="#">
                 <h1>Crear Cuenta</h1>
                 <p>Por favor, proporcione toda la información correcta para crear una cuenta.</p>
-                <input type="text" placeholder="Nombre Completo *" className=" rounded-md"/>
-                <input type="number" placeholder="Celular *" className=" rounded-md"/>
-                <input type="email" placeholder="Coreo Electronico *" className=" rounded-md"/>
-                <input type="password" placeholder="Contraseña *" className=" rounded-md"/>
-                <input type="password" placeholder="Confirmar Contraseña *" className=" rounded-md"/>
+                <input type="text" required name="nombreCom" placeholder="Nombres *" className=" rounded-md"/>
+                <input type="text" required name="primerApe" placeholder="Primer Apellido *" className=" rounded-md"/>
+                <input type="text" required name="segundoApe" placeholder="Segundo Apellido" className=" rounded-md"/>
+                <input type="number" required name="celular" placeholder="Celular *" className=" rounded-md"/>
+                <input type="email" required name="correo" placeholder="Coreo Electronico *" className=" rounded-md"/>
+                <input type="password" required name="contra" placeholder="Contraseña *" className=" rounded-md"/>
+                <select name="rol" id="roles" className="lista rounded-md ">
+                  <option value="estudiante">Estudiante</option>
+                  <option value="docente">Monitor</option>
+                  <option value="administrador">Administrador</option>
+                </select>
                 
                 <button className=" rounded-md mt-5">Registrarse</button>
               </form>

@@ -4,7 +4,7 @@ import Presente from "../../assets/img/presente.jpeg"
 function Presentaciones() {
   return (
     <div className='primary w-full flex flex-col  items-center justify-center'>
-      <div className="container1 flex  gap-24  flex-wrap justify-center">
+      <div className="container1 flex  gap-24  flex-wrap justify-center mt-[2%]">
         <div class="max-w-[35%]  border border-gray-200 rounded-lg shadowbg dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />

@@ -18,7 +18,7 @@
   border-radius: 10px;
   min-width: 800px;
   max-width: 1000px;
-  min-height: 500px;
+  min-height: 600px;
   margin: 0 20px;
   display: flex;
   align-items: center;
@@ -87,6 +87,20 @@
   margin-bottom: 30px;
 }
 .container .form input {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 35px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  padding-left: 15px;
+  border: none;
+  background-color: rgba(199, 197, 197, 0.425);
+  outline: none;
+}
+
+.lista{
   display: block;
   width: 300px;
   margin: 0 auto;

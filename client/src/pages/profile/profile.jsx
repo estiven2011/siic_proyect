@@ -6,7 +6,7 @@ function profile() {
   return (
       
     <div className=" w-full flex rounded-lg">
-    <div className="profiles w-[20%] h-[90vh] rounded-sm m-5 flex">
+    <div className="profiles w-[20%] h-[80h] rounded-sm m-5 flex">
       <div className=' infoProfile flex flex-col items-center'>
       <img src={Profile} alt="" className=' rounded-sm justify-center' />
         <p className=' text-center pb-8'><b>Nombre:</b> <br />Jorge Ernesto Espinosa Oviedo</p>

@@ -7,9 +7,9 @@ async function run(){
     try{
 
         conect = await oracle.getConnection({
-            user: "SYSTEM",
-            password: "0000",
-            connectString: "localhost/"
+            user: "us_ppi",
+            password: "123",
+            connectString: "localhost/xe"
         })
 
         console.log ('Conectado a oracle exitosamente');

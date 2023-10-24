@@ -350,3 +350,26 @@ a {
   max-width: 20px;
 }
 
+
+
+
+/* login.css (Puedes usar tu propio nombre de archivo CSS) */
+
+/* Transición para el efecto de desplazamiento */
+/* .right-panel-active .form-container {
+  transform: translateX(100%);
+  transition: transform 0.8s ease-in-out;
+} */
+
+/* Estilos para el panel izquierdo y derecho */
+/* .overlay-container .overlay-left {
+  transform: translateX(0);
+}
+
+.overlay-container .overlay-right {
+  transform: translateX(0);
+} */
+
+/* Estilos adicionales según sea necesario */
+
+/* Añade más estilos aquí */

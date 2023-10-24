@@ -3,14 +3,14 @@ import Profile from "../../assets/img/user.png"
 
 function Videos() {
   return (
-    <div className='primary w-full flex flex-col  items-center  mt-20  h-[109vh] '>
-      <div className="container1 flex  gap-24  flex-wrap justify-center">
+    <div className='primary w-full flex flex-col  items-center mt-[3%]  mr-5 h-[100vh] '>
+      <div className="container1 flex  gap-20  flex-wrap justify-center">
         <div class="max-w-sm  border border-gray-200 rounded-lg shadowbg dark:border-gray-700">
           <a href="#">
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
           </a>
-          <div class="p-5">
-          <img src={Profile} alt="" />
+          <div class=" p-5">
+            <img src={Profile} alt="" />
             <a href="#">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Video Presentacion Semilero </h5>
             </a>

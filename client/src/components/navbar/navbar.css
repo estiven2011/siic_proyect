@@ -3,33 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: rgb(255, 255, 255);
 }
-nav{
-    background-color: #1e5096;
-    display: flex;
-    justify-content: end;
+
+/* nav{
     padding: 2rem 4rem;
-}
-nav ul{
+} */
+
+/* nav ul{
     display: flex;
     list-style: none;
     align-items: center;
     gap: 5rem;
-}
+} */
+
 nav ul li a{
-    text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    font-weight: 600;
-    padding: 8px 0;
+    /* text-decoration: none; */
+    /* color: white; */
+   /*  font-weight: 600;
     transition: all;
-    transition-duration: 300ms;
+    transition-duration: 300ms; */
 }
-nav ul li  a:hover{
+
+/* nav ul li  a:hover{
     border-bottom:  1px solid rgb(255, 255, 255);
-}
+} */
 
 
 

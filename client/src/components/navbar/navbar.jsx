@@ -24,7 +24,7 @@ function Navbar() {
               </svg>
             </button>
           </div>
-          <ul className={`md:flex items-center gap-5 pr-1% ${isOpen ? 'block' : 'hidden'}`}>
+          <ul className={`md:flex items-center gap-10 pr-1% ${isOpen ? 'block' : 'hidden'}`}>
             <li>
               <NavLink to="/" className='text-white hover:text-gray-300 hover:border-b-1'>Home</NavLink>
             </li>
@@ -35,7 +35,7 @@ function Navbar() {
               <NavLink to="/videos" className='text-white hover:text-gray-300 hover:border-b-1'>Videos</NavLink>
             </li>
             <li>
-              <NavLink to="/tutoriales" className='text-white hover:text-gray-300 hover:border-b-1'>Tutoriales</NavLink>
+              <NavLink to="/sesiones" className='text-white hover:text-gray-300 hover:border-b-1'>Sesiones</NavLink>
             </li>
             <li>
               <NavLink to="/ejercicios" className='text-white hover:text-gray-300 hover:border-b-1'>Ejercicios</NavLink>

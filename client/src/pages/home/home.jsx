@@ -13,7 +13,7 @@ function Home() {
                             En nuestro semillero, creemos en la capacidad de las máquinas para aprender, razonar y tomar decisiones de manera asombrosamente parecida a la mente humana. Aquí, explorarás temas apasionantes como la inteligencia artificial, el análisis de datos y la robótica, todos ellos desempeñando un papel fundamental en la evolución de la tecnología.
                             A medida que te adentres en nuestro semillero, te convertirás en un participante activo de la próxima revolución tecnológica. Descubrirás cómo las máquinas pueden comprender y resolver problemas complejos, cómo pueden contribuir al progreso de la sociedad y cómo pueden mejorar la vida de las personas en todo el mundo.</p>
         <div className='fototo'>
-        <img src={fotop} alt="" className=' rounded-sm justify-center' />
+        <img src={fotop} alt="" className=' rounded-md justify-center' />
         </div>
         <p className='pp'> Así que, ¿estás listo para unirte a nosotros en este emocionante viaje hacia el futuro? En el Semillero de Inteligencia Computacional, te invitamos a ser parte de una comunidad dedicada a impulsar el potencial de la tecnología para el bien de la humanidad. ¡Únete a nosotros hoy mismo y sé parte de la revolución tecnológica que está transformando el mundo!</p>
       </section>
